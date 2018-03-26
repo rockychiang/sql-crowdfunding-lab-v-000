@@ -13,7 +13,7 @@ GROUP BY projects.title ORDER BY projects.title;"
 end
 
 def selects_the_user_name_age_and_pledge_amount_for_all_pledges_alphabetized_by_name
-"SELECT * FROM users
+"SELECT name, age FROM users
 GROUP BY name ORDER BY name;"
 end
 
